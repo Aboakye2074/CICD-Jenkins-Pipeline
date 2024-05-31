@@ -3,7 +3,7 @@ import mangum
 import uvicorn
 
 app = FastAPI()
-# comment
+#  comment
 @app.get("/")
 def read_root():
     return {"Hello": "Digital Team"}
